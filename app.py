@@ -133,7 +133,7 @@ def show_student_detail(student_id):
         print(
 f"Your Name is {student_detail[0]}\n\
 Your date of birth is {student_detail[1].strftime('%x')}\n\
-Your are from {student_detail[2]} department fnfnfn"
+Your are from {student_detail[2]} department"
         )
     except:
         print("Error while fetching student Data")
